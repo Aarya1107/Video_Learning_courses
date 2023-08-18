@@ -1,0 +1,86 @@
+.ReportAbuse-fullPage{
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 50%;
+}
+
+.ReportAbuse-heading{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    
+}
+.ReportAbuse-Content{
+    font-size: 12px;
+    line-height: 35px;
+
+}
+
+.ReportAbuse-sub-heading{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.ReportAbuse-crossBtn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 1rem;
+}
+.ReportAbuse-select-option-section{
+   
+    width: 80%;
+    height: 2.5rem;
+}
+
+.ReportAbuse-select{
+    
+    width: 100%;
+    height:100%;
+}
+
+.ReportAbuse-Inputbox-section{
+    width: 80%;
+    height: 5rem;
+
+
+}
+.ReportAbuse-Inputbox{
+   
+    width:100%;
+    height:100%;
+
+}
+
+.ReportAbuse-buttons{
+    padding:1rem;
+    margin:1rem;
+   
+    
+}
+.cancel-button{
+    border:none;
+    background-color: transparent;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: 8rem;
+    
+}
+
+.submit-button{
+    border:none;
+    background-color:black;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 1rem;
+
+}

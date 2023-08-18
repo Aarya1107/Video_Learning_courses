@@ -1,0 +1,190 @@
+.recently-launched-course-fullpage{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+.card-wrapper {
+  display: flex;
+
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 350px;
+  text-align: center;
+}
+
+.Course_Heading {
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom: 25px;
+}
+
+.sliderButton-left {
+  border: none;
+  background-color: transparent;
+  position:absolute;
+  top: 37%;
+  left: -.25%;
+}
+
+.sliderButton-right {
+  border: none;
+  background-color: transparent;
+  position:absolute;
+  top: 37%;
+  left: 98.5%;
+
+}
+
+.image_name_post_div {
+  margin: 5% 1% 1% 1%;
+  display: flex;
+
+}
+
+.name_post_div {
+  margin: 3.5% 1% 1% 5%;
+
+}
+
+.videoLink {
+  color: #5E24FF;
+  margin-top: 10%;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+/* Recently Launched Course */
+
+.recLunchedPage {
+  font-family: 'Open Sans';
+  width: 350px;
+  /* border: 1px solid navy; */
+}
+
+
+
+.Image-section {
+ 
+  display: flex;
+  /* width: 379px;
+  height: 150px; */
+  padding: 5px;
+  padding-top: 8px;
+  border: solid .25px #dad5d5;
+  
+}
+.Image-01{
+
+
+}
+
+.Image-02{
+
+
+}
+
+.price-fprice-div {
+  display: flex;
+
+}
+
+
+.description-section {
+  text-align: left;
+  width: 345px;
+  padding: 10px;
+ 
+}
+
+.title {
+  margin: 1%;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 20px;
+
+}
+
+.teacher {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+color: #7C7D81;
+}
+
+
+
+.try-for-free {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Rating {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  height: 100%;
+  margin-left: 2px;
+}
+
+.Star-Rating {
+  line-height: normal;
+  display: inline-block;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  vertical-align: middle;
+  background-color: #388e3c;
+  display: flex;
+  padding: 2px 2px 2px 6px;
+}
+
+.Total-Rating {
+  font-size: 15px;
+  padding-left: 8px;
+  font-weight: 500;
+  color: #878787;
+}
+
+.Star-Rating-1 {
+  margin: 2px 2px 0px 2px;
+  height: 10px;
+}
+
+.For-Star-div {
+  display: flex;
+  align-items: center;
+}
+
+.StarRating {
+  position: absolute;
+  width: 300px;
+  margin-top: 4px;
+}
+.price-fprice-div{
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7C7D81;
+
+}
