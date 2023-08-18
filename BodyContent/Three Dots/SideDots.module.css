@@ -1,0 +1,33 @@
+.sidedots {
+  position: relative;
+  display: inline-block; /* Ensure the button takes only the space it needs */
+}
+
+.dots {
+  width: 28px;
+  height: 26px;
+  background-color: #f3f0f0;
+  cursor: pointer;
+}
+
+.dropdownCard {
+  position: absolute;
+  /* Adjust this value as needed to position the dropdown above the card */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1; /* Ensure the dropdown is above the card */
+  padding: 5px;
+}
+
+.itemList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemList li {
+  cursor: pointer;
+  padding: 5px;
+}
